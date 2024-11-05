@@ -31,3 +31,48 @@
 .header li a:hover {
     color: grey;
 }
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    margin-right: 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+}
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.search-icon {
+    width: 16px;
+    height: 16px;
+}

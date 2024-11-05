@@ -7,28 +7,32 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="header">
+       <header class="header">
         <div class="topbar">
             <div class="logo-block">
                 <img src="img/logo.png" alt="logo">
             </div>
         </div>
-        <div class="navigation">
-            <div>
-                <ul>
-                    <li><a href="#">sushi</a></li>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#">Sushi</a></li>
+                <li><a href="#">Maki</a></li>
+                <li><a href="#">Sushi Set</a></li>
+                <li><a href="#">Soups</a></li>
+                <li><a href="#">Salads</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Our Blog</a></li>
+            </ul>
 
-                    <li><a href="#">maki</a></li>
-
-                    <li><a href="#">suchi set</a></li>
-
-                    <li><a href="#">soups</a></li>
-
-                    <li><a href="#">salads</a></li>
-                </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search" aria-label="Search">
+                <button class="search-button">
+                    <img src="data:image/png;base64,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" alt="Search" class="search-icon">
+                </button>
             </div>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="content"></div>
     <div class="footer"></div>
 </body>
